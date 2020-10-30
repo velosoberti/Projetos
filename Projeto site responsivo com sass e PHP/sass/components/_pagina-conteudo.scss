@@ -1,0 +1,16 @@
+.pagina_conteudo{
+  padding: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  overflow: auto;
+  @media(min-width: $breakpoint-md){
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+.pagina_conteudo p{
+  line-height: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: $cor-leitura;
+}
